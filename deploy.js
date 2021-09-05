@@ -9,7 +9,6 @@ async function sendSaveRequest(devConfigPath) {
     throw new Error('Cannot find development configuration.');
   }
   const devConfig = JSON.parse(fs.readFileSync(devConfigPath, { encoding: 'utf-8' }));
-  console.log(devConfig);
   const deployConfig = devConfig?.deploy;
   if (!deployConfig) {
     throw new Error('Cannot find deploy configuration in the .tigodev.');
