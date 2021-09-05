@@ -1,6 +1,6 @@
 {
   "name": "@tigojs/lambda-deploy-script",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Standalone tigo lambda deploy script",
   "main": "main.js",
   "author": "BackRunner",
